@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://ckan.publishing.service.gov.uk/api/3/action/package_search?rows=0
 common:
+  - type: DomainSecurity
+    url: security/ckan-publishing-service-gov-uk-domain-security.yml
   - type: Website
     url: https://ckan.publishing.service.gov.uk
   - type: Documentation
@@ -53,6 +55,8 @@ common:
     url: finops/ckan-publishing-service-gov-uk-finops.yml
   - type: Review
     url: review.yml
+  - url: https://dataingovernment.blog.gov.uk/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
